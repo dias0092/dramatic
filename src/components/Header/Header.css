@@ -1,0 +1,26 @@
+/* Header.css */
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: #333;
+  color: #fff;
+}
+
+.logo {
+  /* styling for the logo */
+}
+
+.navigation ul {
+  list-style-type: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.search-bar {
+  /* styling for the search bar */
+}
+
+.user {
+  /* styling for the user icon and notifications */
+}

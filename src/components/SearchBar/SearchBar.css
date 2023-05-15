@@ -1,0 +1,9 @@
+/* SearchBar.css */
+.search-bar {
+  background-color: #000000;
+  color: #fff;
+}
+.search-bar input {
+  background-color: #5436A9;
+  color: #fff;
+}

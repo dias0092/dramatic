@@ -1,0 +1,5 @@
+/* MovieList.css */
+.movie-list {
+  display: flex;
+  overflow-x: scroll;
+}

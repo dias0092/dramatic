@@ -1,0 +1,19 @@
+/* MovieCard.css */
+.movie-card {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.movie-card img {
+  width: 100%;
+  height: auto;
+}
+
+.movie-card h2 {
+  /* movie title styling */
+}
+
+.movie-card .imdb-rating {
+  /* IMDb rating styling */
+}

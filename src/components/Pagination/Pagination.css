@@ -1,0 +1,9 @@
+/* Pagination.css */
+.pagination {
+  background-color: #000000;
+  color: #fff;
+}
+.pagination button {
+  background-color: #5436A9;
+  color: #fff;
+}
