@@ -1,8 +1,17 @@
 // MovieCard.js
-import React from 'react';
+import React, { useState, useEffect } from 'react';
+import { fetchMovie } from '../services/api';
 import './MovieCard.css';
 
-const MovieCard = ({ movie }) => {
+const MovieCard = ({ movieId }) => {
+  const [movie, setMovie] = useState(null);
+
+  useEffect(() => {
+    fetchMovie(movieId).then(setMovie);
+  }, [movieId]);
+
+  if (!movie) return null;
+
   return (
     <div className="movie-card">
       <img src={movie.poster} alt={movie.title} />

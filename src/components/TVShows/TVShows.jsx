@@ -1,6 +1,7 @@
 // TVShows.jsx
 import React from 'react';
 import MovieList from '../components/MovieList/MovieList';
+import './TVShows.css';
 
 // Sample TV Shows data
 const tvShows = [
